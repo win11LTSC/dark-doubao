@@ -13,7 +13,7 @@
   Element.prototype.setAttribute = function (key, val) {
     if (this === document.documentElement && key === 'data-theme') {
       val = 'dark';
-      console.log('【油猴】[Doubao-Dark] 强制锁定 data-theme = dark');
+      console.log('【油猴】[dark-doubao] 强制锁定 data-theme = dark');
     }
     return raw.call(this, key, val);
   };
